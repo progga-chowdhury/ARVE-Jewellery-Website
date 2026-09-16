@@ -1,0 +1,169 @@
+<!DOCTYPE html> <!--Declares the document as HTML5-->
+<html lang="en"><!--sets the langauge to english-->
+<head>
+    <meta charset="UTF-8"> <!--supports any special character, eg the accent of arve-->
+    <title>Document</title>  <!--title shown on the browser tab-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--allows site to be responsive on mobile devices-->
+    <link rel="stylesheet" href="style.css"> <!--Connects external CSS file to style the website-->
+    
+</head>
+
+<!--all text, logo and images contain an animation that fades in to the screen-->
+
+<body>
+    
+    
+    <!-- Hero section -->
+    <header class="hero item-hero">
+
+    <video autoplay muted loop playsinline id="background-video"> <!--background video that plays automatically-->
+        <source src="Videos/mainbg.mp4" type="video/mp4">
+    </video>
+    
+    <div class="video-overlay"></div>  <!--dark overlay on top of the video to read the text better-->     
+    <div class="brand">ARVÉ</div> <!--brand logo display--> 
+
+
+    <nav class="navbar">
+        <!--navigation menu-->
+
+        
+        <ul class="nav-links">
+             <!--the list of navigation links-->
+            
+            <li class="active"><a href="items.html">SHOP</a></li> <!-- current active page is highlighted-->
+       
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="build.html">BUILD</a></li>
+            <li><a href="extras.html">CUSTOM</a></li>
+            <li><a href="contacts.html">CONTACT</a></li>
+        
+        </ul>
+
+    </nav>
+    <div class="item-hero-content"> <!--the main headline and introductory text-->
+
+        <img src="Pictures/ring1.png" class="side-img left-img" alt=""> <!--decorative image on the side-->
+
+        <h1>Our Shop</h1> <!--page heading-->
+
+        <!--introductory paragraph-->
+        <p class="hero-desc">
+            Explore a curated collection of refined jewellery, crafted to embody timeless beauty and
+            modern sophistication.
+        </p>
+        <a href="#items" class="btn">See Below</a> <!--automatically scrolls down smoothly to the item listing when clicked-->
+
+        <img src="Pictures/ring2.png" class="side-img right-img" alt="">  <!--decorative image on the side-->
+    </div>
+    </header>
+
+    <!-- Items section, displays all the items in a card grid format -->
+
+    <section class="items-section" id="items">
+        
+        <div class="product"> <!--wrapper container for all the item cards-->
+
+        <!-- card 1 -->
+        <div class="product-card">
+            <div class="card-pic">
+                <!--item image-->
+                <img src="Pictures/necklace1.jpg" alt="necklace1">
+            
+            </div>
+            <div class="card-desc"> <!--item information-->
+                <h2>Lumiere Necklace</h2> <!--item name-->
+                <p class="sub">Cherry Gold Necklace</p> <!--item description-->
+                <div class="card-meta">
+                    <!-- item details-->
+                    <span><em>METAL TYPE:</em>PLATED GOLD</span>
+                    <span><em>STYLE:</em>CHAIN LINK</span>               
+                </div>
+                <div class="card-pricing"> <!--item pricing and cart buttom-->
+                    <p class="pricing-label">SIZES &amp; PRICING</p>
+                    <div class="pricing-row">
+                        <span class="price">from <strong>£71.99</strong>&nbsp; 15mm <strong>£93.99</strong></span>
+                        <button class="btn-cart">Add to Cart</button> <!--add to card button-->
+                    </div>
+                </div>            
+            </div>
+        </div>
+
+        <!--card 2, 3, and 4 contain the same structure as card1-->
+
+        <!-- Card 2 -->
+        <div class="product-card">
+            <div class="card-pic">
+                <img src="Pictures/necklace2.jpg" alt="necklace2">
+            </div>
+            <div class="card-desc">
+                <h2>Soleil necklace2</h2>
+                <p class="sub">Yellow gold 100 jewel on necklace</p>
+                <div class="card-meta">
+                    <span><em>METAIL TYPE:</em>PLATED GOLD</span>
+                    <span><em>STYLE:</em>HOOP</span>
+                </div>
+                <div class="card-pricing">
+                    <p class="pricing-label">SIZES &amp; PRICING</p>
+                    <div class="pricing-row">
+                        <span class="price">11m <strong>£67</strong> &nbsp; 15mm <strong>£60.15</strong></span>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card 3 -->
+        <div class="product-card">
+            <div class="card-pic">
+                <img src="Pictures/necklace3.jpg" alt="necklace2">
+            </div>
+            <div class="card-desc">
+                <h2>Soleil necklace2</h2>
+                <p class="sub">Yellow gold 100 jewel on necklace</p>
+                <div class="card-meta">
+                    <span><em>METAIL TYPE:</em>PLATED GOLD</span>
+                    <span><em>STYLE:</em>HOOP</span>
+                </div>
+                <div class="card-pricing">
+                    <p class="pricing-label">SIZES &amp; PRICING</p>
+                    <div class="pricing-row">
+                        <span class="price">11m <strong>£33</strong> &nbsp; 15mm <strong>£56.18</strong></span>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="product-card">
+            <div class="card-pic">
+                <img src="Pictures/necklace4.jpg" alt="necklace2">
+            </div>
+            <div class="card-desc">
+                <h2>Soleil necklace2</h2>
+                <p class="sub">Yellow gold 100 jewel on necklace</p>
+                <div class="card-meta">
+                    <span><em>METAIL TYPE:</em>PLATED GOLD</span>
+                    <span><em>STYLE:</em>HOOP</span>
+                </div>
+                <div class="card-pricing">
+                    <p class="pricing-label">SIZES &amp; PRICING</p>
+                    <div class="pricing-row">
+                        <span class="price">11m <strong>£76.50</strong> &nbsp; 15mm <strong>£43.99</strong></span>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    
+    
+    </section>
+
+    <footer class="footer"> <!--footer section with details-->
+        <p>@ 2026 ARVE Jewellery. All Rights Reserved</p>
+    
+    </footer>
+
+</body>
+</html>
